@@ -1,5 +1,5 @@
 .App {
-  background: rgba(101, 134, 187, 0.95);
+  background: rgba(101, 134, 187, 0.97);
   margin: 0 auto;
   min-height: 100vh;
   width: 75vw;  
@@ -15,6 +15,7 @@
 }
 
 .select {
+  margin-top: 25px;
   width: 150px;
   height: 25px;
 }
@@ -27,13 +28,12 @@
 .aside{
   padding: 10px 20px;
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .list-item {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 5px 25px;
   border-radius: 10px;
   margin-top: 10px;
